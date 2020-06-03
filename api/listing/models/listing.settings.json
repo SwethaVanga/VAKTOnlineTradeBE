@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listings",
+  "info": {
+    "name": "listing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "string"
+    }
+  }
+}
